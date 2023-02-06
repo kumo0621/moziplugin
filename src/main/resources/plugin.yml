@@ -1,0 +1,4 @@
+name: moziplugin
+version: '${project.version}'
+main: com.github.kumo0621.moziplugin.moziplugin
+api-version: 1.16
