@@ -14,7 +14,7 @@ public final class moziplugin extends JavaPlugin implements org.bukkit.event.Lis
     public void onEnable() {
         // Plugin startup logic
         getServer().getPluginManager().registerEvents(this, this);
-        CommandLib.register(this, new mozicommand());
+        CommandLib.register(this, new mozicommand(),new intcommand());
     }
 
     public static boolean start = false;
